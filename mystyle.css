@@ -1,7 +1,7 @@
 .centre{
     margin:auto;
     display: block;
-    margin-top: 16.1em;
+    margin-top: 14.5em;
 }
 
 ul {
@@ -21,11 +21,16 @@ a.links{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     display: inline-block;
+    position: relative;
+    left: 0.14em ;
+    top: 0.9em ;
+
 
 }
 
 span.links{
-    padding-left: 18px;
+    padding-bottom: 1em;
+    padding-left: 1em;
 
 }
 
@@ -34,4 +39,109 @@ a:hover.links{
 }
 a:visited.links{
     color:black;
+}
+
+a.linksB{
+    font-size: 13.4px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color:rgba(0,0,0,0.87);
+
+}
+
+
+a:hover.linksB{
+    text-decoration: underline;
+}
+a:visited.linksB{
+    color:#222222;
+}
+
+span.linksB{
+    float: right;
+    padding-right: 0.8em;
+    position:relative;
+    right: 6.2em;
+    top: 0.7em;
+}
+
+.dot{
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.right{
+    float: right;
+    width: 1.1em;
+    position: relative;
+    left: 2.4em;
+    top: 0.8em;
+}
+img.right{
+    filter: grayscale(100%);
+
+}
+
+div.searchbar{
+    border-style:solid;
+    border-color: rgb(189, 186, 186);
+    border-width: 0.1em;
+    background-color: white;
+    border-radius: 4em;
+    margin: auto;
+    display: block;
+    width: 36.3em;
+    height: 2.6em;
+    position: relative;
+    top:1.7em;
+}
+
+div:hover{
+    border-style:solid;
+    border-color: rgb(189, 186, 186);
+    border-width: 0.1em;
+    background-color: white;
+    border-radius: 4em;
+    margin: auto;
+    display: block;
+    width: 36.3em;
+    height: 2.6em;
+    position: relative;
+    top:1.7em;
+    box-shadow: 0.1em 0.1em rgb(189, 186, 186);
+}
+input.searchbar{
+border-style: none;
+margin:auto;
+display: block;
+height: 2.6em;
+width: 40em;
+position: relative;
+top: 0.3em;
+
+}
+
+button.linksC{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #ececec; /* Green */
+    border: none;
+    color:#222222;
+    margin:auto;
+    display:inline-block;
+    width: 10em;
+    height: 2em;
+    position: relative;
+    top:4em;
+    left:36em;
+    border-radius: 0.2em;
+    }
+
+button:hover.linksC{
+    box-shadow: 0.1em 0.1em rgb(189, 186, 186);
+
 }
